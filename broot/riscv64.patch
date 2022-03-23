@@ -1,8 +1,8 @@
 diff --git PKGBUILD PKGBUILD
-index d1d60e6..67235ec 100644
+index ff00be0..c5c8b74 100644
 --- PKGBUILD
 +++ PKGBUILD
-@@ -18,7 +18,7 @@ sha256sums=('4d8a90c0bfe8bf771d32a434ea54adef0242239312b6c2dafef550356c9b2ad0')
+@@ -18,7 +18,7 @@ sha256sums=('f1a3cda2ebb3a436b039cb2296914871599305f7f9292cc53d3641a67706fe9f')
  
  prepare() {
    cd $pkgname-$pkgver
