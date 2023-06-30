@@ -1,0 +1,13 @@
+diff --git PKGBUILD PKGBUILD
+index ab366b1..1393980 100644
+--- PKGBUILD
++++ PKGBUILD
+@@ -19,6 +19,8 @@ prepare() {
+   git submodule init
+   git submodule update
+   mkdir -p build
++  export CFLAGS="-Wno-error=cast-align -Wno-error=cast-qual $CFLAGS"
++  export CXXFLAGS="-Wno-error=cast-align -Wno-error=cast-qual $CXXFLAGS"
+ }
+ 
+ build() {
